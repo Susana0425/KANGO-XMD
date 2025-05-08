@@ -1,7 +1,7 @@
 /*
   project_name : 𝙈𝙞𝙩𝙕𝙪𝙠𝙮𝙮 𝘽𝙤𝙩 Bot
   Version : 2.4.0
-  Owner : Hector Manuel
+  Owner : Vibhu Pathum
   Do Not Clone 
 
 
