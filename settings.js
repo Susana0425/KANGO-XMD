@@ -1,13 +1,13 @@
 /*
-  project_name : 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 Bot
+  project_name : 𝙈𝙞𝙩𝙕𝙪𝙠𝙮𝙮 𝙈𝘿 Bot
   Version : 2.4.0
-  Owner : Hector Manuel
+  Owner : Vibhu Pathum
   Do Not Clone 
 
 
 */
 
-//----------------------[ 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿]----------------------//
+//----------------------[ 𝙈𝙞𝙩𝙕𝙪𝙠𝙮𝙮 𝙈𝘿]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -16,28 +16,28 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~1tpR3brK#aTX_PkLcEb9ZwOf86V6YBmUC2QWO7v5yIJ7_gsHsi30' 
-//Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
+global.SESSION_ID = process.env.SESSION_ID |KANGO~FxIkEY6b#q5-IlW15LQktIwSdTWE2BXsf_E4pWkFlOcVnVsyltac| '' 
+//Enter your 𝙈𝙞𝙩𝙕𝙪𝙠𝙮𝙮 𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || '𝙆𝘼𝙉𝙂𝙊-𝙈𝘿' 
+global.botname = process.env.BOT_NAME || '𝙈𝙞𝙩𝙕𝙪𝙠𝙮𝙮 𝙈𝘿' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '94750255216' 
+global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Vibhu Pathum' 
+global.ownername = process.env.OWNER_NAME || 'ᴠɪʙʜᴜ ᴘᴀᴛʜᴜᴍ' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿" 
+global.packname = process.env.STICKER_PACK_NAME || "𝙈𝙞𝙩𝙕𝙪𝙠𝙮𝙮 𝙈𝘿" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Vibhu" 
+global.author = process.env.STICKER_AUTHOR_NAME || "ᴠɪʙʜᴜᴜ" 
 
 //----------------------[ TIMEZONE ]--------------------//
 
@@ -58,13 +58,13 @@ global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿"
+global.wm = process.env.GL_WM || "> ©𝙈𝙞𝙩𝙕𝙪𝙠𝙮𝙮 𝙈𝘿"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '> © 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿', 
+  success: '> © 𝙈𝙞𝙩𝙕𝙪𝙠𝙮𝙮 𝙈𝘿', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
@@ -86,4 +86,4 @@ fs.watchFile(file, () => {
   require(file)
 })
 
-//----------------------[ 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 ]----------------------//
+//----------------------[ 𝙈𝙞𝙩𝙕𝙪𝙠𝙮𝙮 𝙈𝘿 ]----------------------//
