@@ -2,7 +2,7 @@
   "chats": {},
   "settings": {
     "prefix": ".",
-    "mode": "public",
+    "mode": "private",
     "autobio": false,
     "anticall": false,
     "chatbot": false,
@@ -17,7 +17,7 @@
     "antidelete": "private",
     "alwaysonline": true,
     "autoviewstatus": true,
-    "autoreactstatus": false,
+    "autoreactstatus": true,
     "autorecordtype": false
   },
   "blacklist": {
